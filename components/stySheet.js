@@ -9,11 +9,11 @@ const stySheet = StyleSheet.create({
     title:{
         marginTop: 16,
         paddingVertical: 8,
-        borderWidth: 4,
-        borderColor: "#20232a",
+        borderWidth: 2,
+        borderColor: "#badbff",
         borderRadius: 6,
         backgroundColor: "#61dafb",
-        color: "#20232a",
+        color: "#fff5f5",
         textAlign: "center",
         fontSize: 30,
         fontWeight: "bold"
