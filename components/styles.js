@@ -2,16 +2,16 @@ import { StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
     container:{
-      flex:1, 
-      justifyContent:'center', 
-      alignContent:'center'
+        flex:1, 
+        justifyContent:'center', 
+        alignContent:'center'
     }, 
     title:{
-      fontSize:20
+        fontSize:20
     }, 
     warning:{
-      color: 'red'
+        color: 'red'
     }
-  })
+})
   
 export default styles;
