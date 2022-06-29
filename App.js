@@ -11,9 +11,10 @@ const App = () => {
     <View style={styles.container}>
       <Text>Button Example</Text>
       <Button
+        color='red'
         onPress={showAlert}
         title='CLICK ME'
-        style={{ backgroundColor: 'gray' }}
+        
       />
     </View>
   )
