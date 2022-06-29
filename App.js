@@ -1,31 +1,15 @@
-import { StyleSheet, Text, View, Button } from 'react-native'
+import { View, Text , Button} from 'react-native'
 import React from 'react'
-
+import Logo from './components/Logo'
+import User from './components/User'
 const App = () => {
-
-  const showAlert = () => {
-    alert("Hello")
-  }
-
   return (
-    <View style={styles.container}>
-      <Text>Button Example</Text>
-      <Button
-        color='red'
-        onPress={showAlert}
-        title='CLICK ME'
-        
-      />
+    <View>
+      <Logo />
+      <Button title='Click ME'/>
+      <User />
     </View>
   )
 }
 
 export default App
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center'
-  }
-});
