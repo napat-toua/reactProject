@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View, Button, TextInput } from 'react-native'
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
 const UserNameandPassWord = () => {
 
-    const [textInputName, setTextInputName]=useState('');
-    const [textInputEmail, setTextInputEmail]=useState('');
+    const [textInputName, setTextInputName] = useState('');
+    const [textInputEmail, setTextInputEmail] = useState('');
 
     const checkTextInput = () => {
         //Check for the Name TextInput
@@ -13,8 +13,8 @@ const UserNameandPassWord = () => {
             return;
         }
         if (!textInputEmail.trim()) {
-             alert('Please Enter Email');
-             return;
+            alert('Please Enter Email');
+            return;
         }
         alert('Success');
         //Check for the Email TextInput
@@ -27,13 +27,13 @@ const UserNameandPassWord = () => {
                 placeholder='Enter Name'
                 value={textInputName}
                 style={styles.textInputStyle}
-                onChangeText = {(textInputName)=>{setTextInputName(textInputName)}}
+                onChangeText={(textInputName) => { setTextInputName(textInputName) }}
             />
             <TextInput
                 placeholder='Enter Email'
                 value={textInputEmail}
                 style={styles.textInputStyle}
-                onChangeText = {(textInputEmail)=>{setTextInputEmail(textInputEmail)}}
+                onChangeText={(textInputEmail) => { setTextInputEmail(textInputEmail) }}
             />
             <Button
                 title='Submit'
