@@ -22,15 +22,16 @@ const App = () => {
       <User />
       <LotsOfGreetings/>
       <MyCustomTextWith /> 
-      <Count />
+      
       <InputText/>
       <UserNameandPassWord/>
       <UserNamePassword/>
       <AlertComponent/>
       <ImageWithTextInput/>
       <ButtonExample/>
-      <Touchable_Example/>*/}
-      <TouchablePractice/>
+      <Touchable_Example/>
+      <TouchablePractice/>*/}
+      <Count/>
     </View>
   )
 }

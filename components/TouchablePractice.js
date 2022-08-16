@@ -15,7 +15,7 @@ const TouchablePractice = () => {
                     <View style={styles.buttonIconSeparatorStyle} />
                     <Text
                         style={styles.buttonTextStyle}
-                    >Login Using Facebook AND TEST CLONE</Text>
+                    >Login Using Facebook</Text>
                 </TouchableOpacity>
                 <TouchableOpacity
                     style={styles.buttonGPlusStyle}
