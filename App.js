@@ -8,7 +8,7 @@ import {
   DrawerItem
 } from '@react-navigation/drawer';
 import HomeScreen from './screens/HomeScreen';
-import ProductScreen from './components/ProductScreen';
+import ProductScreen from './screens/ProductScreen';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 const MyTheme = {
